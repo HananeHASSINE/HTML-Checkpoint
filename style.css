@@ -1,0 +1,51 @@
+body{background-color:rgb(39, 37, 37) ;}
+.navbar {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: top 20px; 
+    font-size: 40px;
+    border: solid black 4px;
+    border-style: dashed;
+    padding: 0;
+    background-color:rgb(204, 191, 236);
+    
+}
+.section{
+  border: solid black 4px;
+  padding: 6px;
+  margin: 4px;
+}
+.title{
+    text-align: center;
+    color: rgb(126, 27, 9);
+    font-size: 3em;
+}
+.footer{
+    display: inline;
+}
+.nav {
+    
+     text-align: center;
+        }
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto, sans-serif;}
+   
+#hanane{
+    font-size: 3em;
+    color: rgb(105, 29, 8);
+    text-align: center;
+}
+#hanane+p{
+    text-align: center;}
+footer{
+     display: inline;
+    }
+.underline
+{
+    text-decoration: underline;
+}
+    p,li,footer,form{color: aliceblue;}
+   
+    

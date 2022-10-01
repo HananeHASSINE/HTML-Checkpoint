@@ -2,31 +2,33 @@
 <html>
   <head>
     <title>Portfolio web design</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
-
   <body>
     <header>
       <nav>
-        <a href="#Home"> Home </a> <br />
-        <a href="#About"> about </a> <br />
-        <a href="#Work"> Work </a> <br />
-        <a href="#Resume"> Resume </a> <br />
-        <a href="#Contact"> Contact </a> <br />
+        <ul class="nav">
+          <li class="navbar"><a href="#Home"> Home </a> <br /></li>
+          <li class="navbar"><a href="#About"> about </a> <br /></li>
+          <li class="navbar"><a href="#Work"> Work </a> <br /></li>
+          <li class="navbar"><a href="#Resume"> Resume </a> <br /></li>
+          <li class="navbar"><a href="#Contact"> Contact </a> <br /></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section">
         <a name="Home"> </a>
-        <h2>Home</h2>
-        <video autoplay muted loop width="900">
+        <h2 class="title">Home</h2>
+        <video autoplay muted loop width="1315">
           <source src="/res/welcome.mp4" type="video/mp4" />
         </video>
-        <h1>I'm HASSINE Hanane</h1>
+        <h1 id="hanane">I'm HASSINE Hanane</h1>
         <p>Web & Interface Designer</p>
       </section>
-      <section>
+      <section class="section">
         <a name="About"> </a>
-        <h2>About</h2>
+        <h2 class="title">About</h2>
         <p>
           Hello! I'm HASSINE Hanane ,web designer from Algeria. I have rich
           experience in web site design and building, also I am good at Word
@@ -41,34 +43,34 @@
           <li>E-mail: hassinehanane123@gmail.com</li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <a name="Work"> </a>
-        <h2>Work</h2>
+        <h2 class="title">Work</h2>
         <p>You can see some of my works here:</p>
         <img src="/res/im1.png" alt=" work 1" width="500px" /> <br /><br />
         <img src="/res/im2.png" alt="work 2" width="500px" /> <br /><br />
         <img src="/res/im3.png" alt="work 3" width="500px" /> <br /><br />
         <img src="/res/im4.png" alt="  work 4" width="500px" /> <br /><br />
       </section>
-      <section>
+      <section class="section">
         <a name="Resume"> </a>
-        <h2>Resume</h2>
+        <h2 class="title">Resume</h2>
         <ul>
-          <li><h4>Experience:</h4></li>
+          <li><h4 class="underline">Experience:</h4></li>
           <p>Working with freelencer</p>
-          <li><h4>Education:</h4></li>
+          <li><h4 class="underline">Education:</h4></li>
           <p>Studied at</p>
           <p>GOMYCODE <br />IGEE ex Inelec</p>
-          <li><h4>Coding skills:</h4></li>
+          <li><h4 class="underline">Coding skills:</h4></li>
           <p>
             Wordpress <br />Javascript <br />HTML <br />CSS <br />PYTHON <br />
             C/C++ <br />
           </p>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <a name="Contact"> </a>
-        <h2>contact</h2>
+        <h2 class="title">contact</h2>
         <form>
           Name <input type="text" name="Nname" /> <br /><br />
           Email <input type="email" name="email" /> <br /><br />
@@ -89,11 +91,11 @@
       </section>
     </main>
     <footer>
-      <h4>Contact Us</h4>
+      <h4 class="underline">Contact Us</h4>
       <ul>
-        <li>Email: hassinehanane123</li>
-        <li>Facebook: Hanane</li>
-        <li>instagram: HANANE</li>
+        <li class="footer"><b class="underline">Email:</b> hassinehanane123</li>
+        <li class="footer"><b class="underline">Facebook:</b> Hanane</li>
+        <li class="footer"><b class="underline">instagram:</b> HANANE</li>
       </ul>
     </footer>
   </body>
